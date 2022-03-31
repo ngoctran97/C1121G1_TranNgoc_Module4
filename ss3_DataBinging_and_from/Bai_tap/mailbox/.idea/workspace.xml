@@ -5,22 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c299136-2aca-41f7-b086-1fa8dc6c07aa" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../Ss2-Spring-Controller/Exercise/hien_thi_gia_vi/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ss2-Spring-Controller/Exercise/hien_thi_gia_vi/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ss2-Spring-Controller/Exercise/hien_thi_gia_vi/src/main/java/com/codegym/controller/giaViController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ss2-Spring-Controller/Exercise/hien_thi_gia_vi/src/main/java/com/codegym/controller/giaViController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Ss2-Spring-Controller/Exercise/may_tinh/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Ss2-Spring-Controller/Exercise/may_tinh/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AppConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/controller/MaiboxController.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/IMailboxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/Impl/MailboxService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/controller/MailboxController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/controller/MailboxController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/mailbox-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/mailbox-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/controller/MailboxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/MailboxController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/model/Mailbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Mailbox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/Form_Data_Binding/src/main/java/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/Form_Data_Binding/src/main/java/AppConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/Form_Data_Binding/src/main/java/com/codegym/controller/EmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/Form_Data_Binding/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/Form_Data_Binding/src/main/java/com/codegym/model/Employee.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/Form_Data_Binding/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/login/src/main/java/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/login/src/main/java/AppConfiguration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/login/src/main/java/com/codegym/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/login/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/login/src/main/java/com/codegym/model/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/login/src/main/java/com/codegym/model/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/login/src/main/java/com/codegym/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/login/src/main/java/com/codegym/model/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/login/src/main/java/com/codegym/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/login/src/main/java/com/codegym/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/login/src/main/webapp/WEB-INF/views/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/login/src/main/webapp/WEB-INF/views/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/Form_Data_Binding/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/Form_Data_Binding/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,12 +32,34 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="mailbox" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -46,6 +68,7 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="ProjectId" id="2796fSD9ACIwWmLHhmZS8QV8l7Z" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -166,7 +189,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1648710668748</updated>
-      <workItem from="1648710672611" duration="4667000" />
+      <workItem from="1648710672611" duration="5270000" />
+      <workItem from="1648720060544" duration="80000" />
+      <workItem from="1648720152403" duration="18000" />
+      <workItem from="1648720207004" duration="1382000" />
+      <workItem from="1648727550728" duration="3800000" />
     </task>
     <servers />
   </component>
@@ -183,5 +210,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

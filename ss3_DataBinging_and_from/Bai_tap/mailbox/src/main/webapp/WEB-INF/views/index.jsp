@@ -13,16 +13,15 @@
   </head>
   <body>
   <h3>Settings</h3>
-  <form:form method="POST" action="mailbox" modelAttribute="mailbox">
+  <form:form method="get" action="mailbox" modelAttribute="mailbox">
     <table>
       <tr>
         <td><form:label path="langueges">Langueges: </form:label></td>
-        <form:select  items="${languegesList}"  path="langueges"></form:select>
-        
+        <td><form:select  items="${languegesList}"  path="langueges"></form:select></td>
       </tr>
       <tr>
         <td><form:label path="pageSize">Page Size: </form:label></td>
-        <td><form:select  items="" path="pageSize" /></td>
+        <td><form:select  items="${pageSizeList}" path="pageSize" /></td>
       </tr>
       <tr>
         <td><form:label path="spamrfilter">Spamrfilter: </form:label></td>
