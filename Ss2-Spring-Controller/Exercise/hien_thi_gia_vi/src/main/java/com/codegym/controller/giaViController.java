@@ -14,6 +14,7 @@ public class giaViController {
     public String save() {
         return "index";
     }
+
     @GetMapping("save")
     public String save(@RequestParam(required = false) String[] condiment, Model model){
         model.addAttribute("condiments",condiment);
