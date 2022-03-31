@@ -14,15 +14,21 @@ import java.util.Map;
 public class DictionaryController {
     @Autowired
     IDictionaryService dictionaryService;
+
     @GetMapping("")
     private String ShowIndex(){
         return "index";
     }
+
     @PostMapping("/translate")
     private String translate(@RequestParam String txtSearch, Model model){
         Map<String,String> ten = dictionaryService.translate();
         String result = ten.get(txtSearch);
-        model.addAttribute("result",result);
+        if(result == null){
+            model.addAttribute("msg","khong tim thay");
+        }else {
+            model.addAttribute("result", result);
+        }
         return "index";
     }
 
