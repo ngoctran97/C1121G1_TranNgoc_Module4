@@ -8,16 +8,16 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import javax.xml.ws.Action;
-
 @Controller
 public class MoneyController {
     @Autowired
     IMoneyService moneyService;
-    @GetMapping("")
+
+    @GetMapping("/show")
     public String showIndex(){
         return "index";
     }
+
     @PostMapping("/action")
     public String money(@RequestParam int usd, Model model){
         int vnd = moneyService.convert(usd);
