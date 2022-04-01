@@ -20,7 +20,7 @@
 </head>
 <body>
 <p>
-    <a th:href="@{/medican/create}">
+    <a href="/medican/create">
         ADD NEW
     </a>
 </p>

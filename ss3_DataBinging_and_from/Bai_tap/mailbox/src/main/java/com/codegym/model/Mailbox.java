@@ -67,4 +67,5 @@ public class Mailbox {
     public void setSingnatune(String singnatune) {
         this.singnatune = singnatune;
     }
+
 }

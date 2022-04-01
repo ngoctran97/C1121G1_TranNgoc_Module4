@@ -40,17 +40,17 @@
       <h5>Khuyến cáo: Khai báo thông tin sai là vi phạm pháp luật Việt Nam và có thể bị xử lý hình sự</h5>
     </div>
     <div class="col-12 mt-4">
-      <form:form method="post" action="/save" modelAttribute="medicalDeclaration">
-        <form:input type="hidden" path="idForm"/>
+      <form:form method="post" action="/save" modelAttribute="medican">
+        <form:input type="hidden" path="id" />
         <div class="form-group ">
           <label>Họ tên (ghi chữ IN HOA) <span class="text-danger">(*)</span> </label>
-          <form:input type="text" class="form-control" aria-describedby="fullNameError" path="fullName"/>
+          <form:input type="text" class="form-control" aria-describedby="fullNameError" path="name"/>
           <small id="fullNameError" class="form-text text-danger"></small>
         </div>
         <div class="form-group row">
           <div class="col-4">
             <label>Năm sinh <span class="text-danger">(*)</span> </label>
-            <form:input type="date" class="form-control" aria-describedby="birthError" path="birthday"/>
+            <form:input type="date" class="form-control" aria-describedby="birthError" path="dateOFBirth"/>
             <small id="birthError" class="form-text text-danger"></small>
           </div>
           <div class="col-4">
@@ -71,15 +71,14 @@
           <label>Số hộ chiếu hoặc số CMND hoặc giấy thông hành hợp pháp khác
             <span class="text-danger">(*)</span> </label>
           <form:input type="text" class="form-control" aria-describedby="idCardNumberError"
-                      path="idCardNumber"/>
+                      path="idCard"/>
           <small id="idCardNumberError" class="form-text text-danger"></small>
         </div>
         <div class="form-group">
           <label>Thông tin đi lại <span class="text-danger">(*)</span> </label>
           <div class="row">
             <div class="form-check form-check-inline">
-              <form:radiobuttons class="form-check-input ml-3 mr-3" path="travelInfo"
-                                 items="${travelInfoArray}"/>
+              <form:radiobuttons class="form-check-input ml-3 mr-3" path="vehicle"/>
               <label class="form-check-label" path="travelInfo"></label>
             </div>
           </div>
@@ -92,7 +91,7 @@
           </div>
           <div class="col-6">
             <label>Số ghế</label>
-            <form:input type="text" class="form-control" path="seatNumber"/>
+            <form:input type="text" class="form-control" path="chairNumber"/>
           </div>
         </div>
         <div class="form-group row">
@@ -103,7 +102,7 @@
               </div>
               <div class="col-9">
                 <form:input type="date" class="form-control" aria-describedby="startDayError"
-                            path="startDay"/>
+                            path="departureDay"/>
               </div>
             </div>
             <small id="startDayError" class="form-text text-danger"></small>
@@ -125,7 +124,7 @@
           <label>Trong vòng 14 ngày qua, Anh/Chị có đến tỉnh/thành phố nào?
             <span class="text-danger">(*)</span> </label>
           <form:input type="text" class="form-control" aria-describedby="cityIn14dayError"
-                      path="cityIn14day"/>
+                      path="cityUsedToPass"/>
           <small id="cityIn14dayError" class="form-text text-danger"></small>
         </div>
         <div class="form-group ">
@@ -136,7 +135,7 @@
         <div class="form-group row">
           <div class="col-6">
             <label>Điện thoại <span class="text-danger">(*)</span> </label>
-            <form:input type="text" class="form-control" aria-describedby="phoneError" path="phone"/>
+            <form:input type="text" class="form-control" aria-describedby="phoneError" path="phoneNumber"/>
             <small id="phoneError" class="form-text text-danger"></small>
           </div>
           <div class="col-6">
