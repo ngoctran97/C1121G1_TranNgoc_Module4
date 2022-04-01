@@ -34,6 +34,7 @@
           <element id="library" level="project" name="Gradle: org.attoparser:attoparser:2.0.4.RELEASE" />
           <element id="library" level="project" name="Gradle: org.unbescape:unbescape:1.1.5.RELEASE" />
           <element id="library" level="project" name="Gradle: org.javassist:javassist:3.20.0-GA" />
+          <element id="library" level="project" name="Gradle: javax.servlet:jstl:1.2" />
         </element>
       </element>
     </root>

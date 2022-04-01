@@ -1,12 +1,16 @@
 package com.codegym.model;
 
 public class Mailbox {
+    private int id;
+    private String mailAddress;
     private String langueges;
     private int pageSize;
     private boolean spamrfilter;
     private String singnatune;
 
-    public Mailbox(String langueges, int pageSize, boolean spamrfilter, String singnatune) {
+    public Mailbox(int id, String mailAddress, String langueges, int pageSize, boolean spamrfilter, String singnatune) {
+        this.id = id;
+        this.mailAddress = mailAddress;
         this.langueges = langueges;
         this.pageSize = pageSize;
         this.spamrfilter = spamrfilter;
@@ -14,6 +18,22 @@ public class Mailbox {
     }
 
     public Mailbox() {
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    public String getMailAddress() {
+        return mailAddress;
+    }
+
+    public void setMailAddress(String mailAddress) {
+        this.mailAddress = mailAddress;
     }
 
     public String getLangueges() {

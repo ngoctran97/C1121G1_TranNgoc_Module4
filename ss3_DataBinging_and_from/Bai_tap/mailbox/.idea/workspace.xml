@@ -5,10 +5,65 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c299136-2aca-41f7-b086-1fa8dc6c07aa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../khai_bao_y_te/src/main/java/com/codegym/Model/Medican.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../khai_bao_y_te/src/main/java/com/codegym/controller/MedicanController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../khai_bao_y_te/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/src/main/java/com/codegym/controller/MailboxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/src/main/java/com/codegym/controller/MailboxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/src/main/java/com/codegym/model/Mailbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/src/main/java/com/codegym/model/Mailbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/src/main/java/com/codegym/service/IMailboxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/src/main/java/com/codegym/service/IMailboxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/src/main/java/com/codegym/service/Ipml/MailboxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/src/main/java/com/codegym/service/Ipml/MailboxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gmail/src/main/webapp/WEB-INF/views/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../gmail/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khai_bao_y_te/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../khai_bao_y_te/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khai_bao_y_te/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../khai_bao_y_te/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khai_bao_y_te/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../khai_bao_y_te/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khai_bao_y_te/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../khai_bao_y_te/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khai_bao_y_te/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../khai_bao_y_te/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khai_bao_y_te/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../khai_bao_y_te/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khai_bao_y_te/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../khai_bao_y_te/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khai_bao_y_te/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../khai_bao_y_te/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khai_bao_y_te/src/main/java/AppConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/../khai_bao_y_te/src/main/java/AppConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khai_bao_y_te/src/main/java/com/codegym/Model/Medican.java" beforeDir="false" afterPath="$PROJECT_DIR$/../khai_bao_y_te/src/main/java/com/codegym/Model/Medican.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khai_bao_y_te/src/main/java/com/codegym/controller/MedicanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../khai_bao_y_te/src/main/java/com/codegym/controller/MedicanController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khai_bao_y_te/src/main/java/com/codegym/service/IMedicanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../khai_bao_y_te/src/main/java/com/codegym/service/IMedicanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khai_bao_y_te/src/main/java/com/codegym/service/impl/MedicanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../khai_bao_y_te/src/main/java/com/codegym/service/impl/MedicanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../khai_bao_y_te/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../khai_bao_y_te/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/7.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_example___mailbox_1_0_SNAPSHOT_war__exploded_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Gradle___org_example___mailbox_1_0_SNAPSHOT_war__exploded_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mailbox.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mailbox.main.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/mailbox.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/mailbox.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/controller/MailboxController.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/controller/MailboxController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/model/Mailbox.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/model/Mailbox.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/service/IMailboxService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/service/IMailboxService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/codegym/service/Impl/MailboxService.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/com/codegym/service/Impl/MailboxService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/mailbox-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/mailbox-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/compileJava/previous-compilation-data.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/controller/MailboxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/MailboxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/model/Mailbox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Mailbox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/repository/IMailboxRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/IMailboxRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/repository/impl/MailboxRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/impl/MailboxRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/service/IMailboxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/IMailboxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/codegym/service/Impl/MailboxService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/Impl/MailboxService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Thuc_hanh/Form_Data_Binding/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Thuc_hanh/Form_Data_Binding/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss3_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/java/com/codegym/configuration/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss3_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/java/com/codegym/configuration/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss3_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/java/com/codegym/controller/CustomerController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss3_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/java/com/codegym/model/Customer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss3_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/java/com/codegym/service/ICustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss3_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/java/com/codegym/service/Impl/CustomerService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss3_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/webapp/WEB-INF/views/create.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss3_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/webapp/WEB-INF/views/delete.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss3_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/webapp/WEB-INF/views/edit.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss3_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/webapp/WEB-INF/views/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss3_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/webapp/WEB-INF/views/layout.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss3_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/webapp/WEB-INF/views/view.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_views&amp;thymelaaf/bai_tap/product/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_views&amp;thymelaaf/bai_tap/product/.gradle/7.1/executionHistory/executionHistory.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +95,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -65,6 +120,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -181,7 +237,10 @@
       <workItem from="1648720060544" duration="80000" />
       <workItem from="1648720152403" duration="18000" />
       <workItem from="1648720207004" duration="1382000" />
-      <workItem from="1648727550728" duration="4469000" />
+      <workItem from="1648727550728" duration="4714000" />
+      <workItem from="1648735846730" duration="10749000" />
+      <workItem from="1648768326690" duration="609000" />
+      <workItem from="1648802786940" duration="1227000" />
     </task>
     <servers />
   </component>

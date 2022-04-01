@@ -13,7 +13,7 @@
   </head>
   <body>
   <h3>Settings</h3>
-  <form:form method="get" action="mailbox" modelAttribute="mailbox">
+  <form:form method="post" action="mailbox" modelAttribute="mailbox">
     <table>
       <tr>
         <td><form:label path="langueges">Langueges: </form:label></td>

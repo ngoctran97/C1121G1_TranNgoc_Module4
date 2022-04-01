@@ -20,6 +20,8 @@ public class Medican {
     private String phoneNumber;
     private String email;
 
+
+
     public Medican(int id, String name, String dateOFBirth, String gender, String nationality, String idCard, String vehicle, String vehicleNumber, Integer chairNumber, String departureDay, String endDay, String cityUsedToPass, String province, String district, String wards, String address, String phoneNumber, String email) {
         this.id = id;
         this.name = name;
