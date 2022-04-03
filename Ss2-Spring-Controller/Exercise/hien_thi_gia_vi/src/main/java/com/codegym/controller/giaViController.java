@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 public class giaViController {
     @RequestMapping("")
     public String save() {
-
         return "index";
     }
 
