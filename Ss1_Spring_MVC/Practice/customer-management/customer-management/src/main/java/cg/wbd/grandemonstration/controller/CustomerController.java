@@ -19,7 +19,7 @@ public class CustomerController {
     public String showList(HttpServletRequest request) {
         List<Customer> customers = customerService.findAll();
         request.setAttribute("customers", customers);
-        return "customers/list.jsp";
+        return "list.jsp";
     }
 
     @GetMapping(value = "/info")

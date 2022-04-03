@@ -12,18 +12,25 @@
   <title>$Title$</title>
 </head>
 <body>
-<h2>Sandwich condiments</h2>
+<h2>Sandwich Condiments</h2>
 <form action="/save">
+
   <input type="checkbox" id="lettuce" value="lettuce" name="condiment" >
   <label for="lettuce">Lettuce</label><br>
+
   <input type="checkbox" id="tomato"  value="tomato" name="condiment">
-  <label for="tomato">Lettuce</label><br>
+  <label for="tomato">Tomato</label><br>
+
   <input type="checkbox" id="mustard" value="mustard" name="condiment">
   <label for="mustard">Mustard</label><br>
+
   <input type="checkbox" id="sprouts" value="sprouts" name="condiment">
   <label for="sprouts">Sprouts</label><br>
+
   <input type="submit" value="Save">
+
 </form>
+
 <c:if test="${condiments!=null}">
   <h3>Saved sandwich has</h3>
   <c:forEach items="${condiments}" var="condiment">

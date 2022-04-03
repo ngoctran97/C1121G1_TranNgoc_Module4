@@ -78,7 +78,7 @@
           <label>Thông tin đi lại <span class="text-danger">(*)</span> </label>
           <div class="row">
             <div class="form-check form-check-inline">
-              <form:radiobuttons class="form-check-input ml-3 mr-3" path="vehicle"/>
+              <form:radiobuttons class="form-control" aria-describedby="vehicle" path="vehicle"/>
               <label class="form-check-label" path="travelInfo"></label>
             </div>
           </div>

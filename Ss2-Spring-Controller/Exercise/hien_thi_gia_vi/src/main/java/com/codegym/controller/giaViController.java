@@ -10,8 +10,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
 public class giaViController {
-    @RequestMapping("/")
+    @RequestMapping("")
     public String save() {
+
         return "index";
     }
 
@@ -20,4 +21,5 @@ public class giaViController {
         model.addAttribute("condiments",condiment);
         return "/index";
     }
+
 }

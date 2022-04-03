@@ -10,13 +10,16 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class MayTinhController {
     @Autowired
     IMayTinhService mayTinhService;
-    @RequestMapping
+
+    @RequestMapping("")
     public String displayHome() {
         return "/index";
     }
-    @PostMapping("/calculate")
+
+    @PostMapping("/Calculate")
     public String calculate(String operator, int num1, int num2, Model model) {
-        String result = new MayTinhController().mayTinhService.Calculate(num1,num2,operator);
+        String result = mayTinhService.Calculate(num1,num2,operator);
+//        String result = new MayTinhController().mayTinhService.Calculate(num1,num2,operator);
         model.addAttribute("result", result);
         return "/index";
     }

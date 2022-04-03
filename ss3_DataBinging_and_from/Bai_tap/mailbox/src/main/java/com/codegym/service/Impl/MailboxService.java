@@ -17,7 +17,7 @@ public class MailboxService implements IMailboxService {
     static {
         mailboxList = new HashMap<>();
         mailboxList.put(1,new Mailbox(1,"ngoc123@gmail.com","Vietnamese",10,true,"Ngoc Tran"));
-        mailboxList.put(2,new Mailbox(2,"trong456@gmai.com","Japanese",5,false,"Trong Tran"));
+        mailboxList.put(2,new Mailbox(2,"xiukoi456@gmai.com","Japanese",5,false,"Xiu Nguyen"));
 //        languegesList = Arrays.asList("Vietnamese","Japanese","English","Chinese");
     }
 

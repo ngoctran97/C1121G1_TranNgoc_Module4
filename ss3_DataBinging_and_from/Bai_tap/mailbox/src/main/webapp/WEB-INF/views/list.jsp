@@ -13,7 +13,7 @@
 </head>
 <body>
 <h3>Mailbox List</h3>
-<p><a href="/create">create</a></p>
+<p><a href="/mailbox" >create</a></p>
 <form>
   <table border="1">
     <tr>

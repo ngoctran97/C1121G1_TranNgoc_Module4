@@ -15,7 +15,7 @@ public class MailboxController {
     @Autowired
     IMailboxService mailboxService;
 
-    @GetMapping(value = "/mailbox")
+    @GetMapping(value = "")
     public String showMailboxList(Model model){
         List<Mailbox> mailboxList = mailboxService.findAll();
         model.addAttribute("mailboxList",mailboxList);
@@ -23,33 +23,19 @@ public class MailboxController {
     }
 
 
-    @PostMapping(value = "mailbox")
+    @GetMapping(value = "/mailbox")
     public String create(Mailbox mailbox){
         mailboxService.create(mailbox);
         return "create";
     }
-    @PostMapping("/save")
+    @PostMapping("/create")
     public String save(Mailbox mailbox) {
         List<Mailbox> mailboxList = mailboxService.findAll();
         mailbox.setId(mailboxList.size()+1);
         mailboxService.save(mailbox);
         return "redirect:/mailbox";
     }
-//
-//    @GetMapping("/create")
-//    public ModelAndView createMailbox(){
-//
-//        ModelAndView modelAndView = new ModelAndView("create", "mailbox",new Mailbox());
-//
-//        return modelAndView;
-//
-//    }
-//    @PostMapping("/create")
-//    public String createMailboxForm(@RequestParam Mailbox mailbox, Model model){
-//        mailboxService.create(mailbox);
-//        return "index";
-//
-//    }
+
 
 
 }

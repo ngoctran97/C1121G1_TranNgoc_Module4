@@ -20,7 +20,7 @@
 </head>
 <body>
 <p>
-    <a href="/medican/create">
+    <a href="/create">
         ADD NEW
     </a>
 </p>

@@ -12,7 +12,6 @@ import java.util.List;
 
 
 @Controller
-@RequestMapping("medican")
 public class MedicanController {
 
     private final IMedicanService medicanService = new MedicanService();
