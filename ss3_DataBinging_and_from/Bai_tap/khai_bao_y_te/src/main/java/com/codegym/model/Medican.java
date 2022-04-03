@@ -1,4 +1,4 @@
-package com.codegym.Model;
+package com.codegym.model;
 
 public class Medican {
     private int id;

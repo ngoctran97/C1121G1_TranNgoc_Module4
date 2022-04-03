@@ -1,6 +1,6 @@
 package com.codegym.service;
 
-import com.codegym.Model.Medican;
+import com.codegym.model.Medican;
 
 import java.util.List;
 

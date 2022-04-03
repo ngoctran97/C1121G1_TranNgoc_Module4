@@ -1,6 +1,6 @@
 package com.codegym.service.impl;
 
-import com.codegym.Model.Medican;
+import com.codegym.model.Medican;
 import com.codegym.service.IMedicanService;
 import org.springframework.stereotype.Service;
 
