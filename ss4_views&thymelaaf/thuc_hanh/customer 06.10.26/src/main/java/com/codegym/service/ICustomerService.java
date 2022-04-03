@@ -9,7 +9,7 @@ public interface ICustomerService {
 
     void save(Customer customer);
 
-    Object findById(int id);
+    Object findById(Integer id);
 
     void update(int id, Customer customer);
 

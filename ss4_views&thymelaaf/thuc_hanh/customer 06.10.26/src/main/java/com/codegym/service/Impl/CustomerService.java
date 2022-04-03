@@ -36,8 +36,7 @@ public class CustomerService implements ICustomerService {
     }
 
     @Override
-    public Object findById(int id) {
-
+    public Object findById(Integer id) {
         return customers.get(id);
     }
 

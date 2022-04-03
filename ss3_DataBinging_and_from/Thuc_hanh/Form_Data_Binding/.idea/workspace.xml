@@ -5,12 +5,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26e22a12-eaf2-40ac-8243-3b5ba1c576d3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Bai_tap/khai_bao_y_te/src/main/java/com/codegym/model/Medican.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_tap/khai_bao_y_te/src/main/java/com/codegym/controller/MedicanController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_tap/khai_bao_y_te/src/main/java/com/codegym/controller/MedicanController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_tap/khai_bao_y_te/src/main/java/com/codegym/service/IMedicanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_tap/khai_bao_y_te/src/main/java/com/codegym/service/IMedicanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Bai_tap/khai_bao_y_te/src/main/java/com/codegym/service/impl/MedicanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_tap/khai_bao_y_te/src/main/java/com/codegym/service/impl/MedicanService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.gradle/7.1/dependencies-accessors/dependencies-accessors.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.gradle/7.1/dependencies-accessors/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.gradle/7.1/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.gradle/7.1/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.gradle/7.1/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.gradle/7.1/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.gradle/7.1/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.gradle/7.1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.gradle/checksums/checksums.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/build/tmp/war/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/src/main/java/AppConfiguration.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/src/main/java/AppInitializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/src/main/java/com/codegym/controller/MailboxController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/src/main/java/com/codegym/model/Mailbox.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/src/main/java/com/codegym/service/IMailboxService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/src/main/java/com/codegym/service/Ipml/MailboxService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/src/main/webapp/WEB-INF/views/create.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/gmail/src/main/webapp/WEB-INF/views/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Bai_tap/mailbox/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_tap/mailbox/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/mailbox/src/main/java/com/codegym/controller/MailboxController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_tap/mailbox/src/main/java/com/codegym/controller/MailboxController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Bai_tap/mailbox/src/main/webapp/WEB-INF/views/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../Bai_tap/mailbox/src/main/webapp/WEB-INF/views/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_views&amp;thymelaaf/bai_tap/product/src/main/java/com/codegym/service/impl/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_views&amp;thymelaaf/bai_tap/product/src/main/java/com/codegym/service/impl/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/java/com/codegym/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/java/com/codegym/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/java/com/codegym/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/java/com/codegym/service/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../ss4_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/java/com/codegym/service/Impl/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../ss4_views&amp;thymelaaf/thuc_hanh/customer 06.10.26/src/main/java/com/codegym/service/Impl/CustomerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

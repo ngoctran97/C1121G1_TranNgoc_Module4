@@ -13,30 +13,30 @@
 </head>
 <body>
 <h3>Mailbox List</h3>
-<p><a href="/mailbox" >create</a></p>
+<p><a href="/mailbox">create</a></p>
 <form>
-  <table border="1">
-    <tr>
-      <th>Id</th>
-      <th>mailAddress</th>
-      <th>langueges</th>
-      <th>pageSize</th>
-      <th>spamrfilter</th>
-      <th>singnatune</th>
-      <th></th>
-    </tr>
-    <c:forEach var="mailbox" items="${mailboxList}">
-      <tr>
-        <td>${mailbox.id}</td>
-        <td>${mailbox.mailAddress}</td>
-        <td>${mailbox.langueges}</td>
-        <td>${mailbox.pageSize}</td>
-        <td>${mailbox.spamrfilter}</td>
-        <td>${mailbox.singnatune}</td>
-        <td><a href="#">Edit</a></td>
-      </tr>
-    </c:forEach>
-  </table>
+    <table border="1">
+        <tr>
+            <th>Id</th>
+            <th>mailAddress</th>
+            <th>langueges</th>
+            <th>pageSize</th>
+            <th>spamrfilter</th>
+            <th>singnatune</th>
+            <th></th>
+        </tr>
+        <c:forEach var="mailbox" items="${mailboxList}">
+            <tr>
+                <td>${mailbox.id}</td>
+                <td>${mailbox.mailAddress}</td>
+                <td>${mailbox.langueges}</td>
+                <td>${mailbox.pageSize}</td>
+                <td>${mailbox.spamrfilter}</td>
+                <td>${mailbox.singnatune}</td>
+                <td><a href="#">Edit</a></td>
+            </tr>
+        </c:forEach>
+    </table>
 </form>
 </body>
 </html>
