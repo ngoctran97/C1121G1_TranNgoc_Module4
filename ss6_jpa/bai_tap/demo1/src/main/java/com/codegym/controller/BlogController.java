@@ -42,30 +42,26 @@ public class BlogController {
 
     @GetMapping("/{id}/edit")
     public String edit(@PathVariable int id, Model model) {
-        model.addAttribute("product", blogService.findById(id));
+        model.addAttribute("blog", blogService.findById(id));
         return "/edit";
     }
-    @PostMapping("/update")
-    public String update(Blog blog){
-        blogService.update(blog.getId(), blog);
-        return "redirect:/blog";
-    }
+
     @GetMapping("/{id}/delete")
     public String delete(@PathVariable int id, Model model) {
-        model.addAttribute("product", blogService.findById(id));
+        model.addAttribute("blog", blogService.findById(id));
         return "/delete";
     }
 
     @PostMapping("/delete")
     public String delete(Blog blog, RedirectAttributes redirect) {
         blogService.remove(blog.getId());
-        redirect.addFlashAttribute("success", "Removed product successfully!");
+        redirect.addFlashAttribute("success", "Removed blog successfully!");
         return "redirect:/blog";
 
     }
     @GetMapping("/{id}/view")
     public String view(@PathVariable int id, Model model){
-        model.addAttribute("product", blogService.findById(id));
+        model.addAttribute("blog", blogService.findById(id));
         return "/view";
     }
 }

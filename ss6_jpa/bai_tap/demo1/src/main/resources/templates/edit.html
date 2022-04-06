@@ -9,24 +9,22 @@
     </a>
 </p>
 <div id="form">
-    <form th:action="@{/blog/update}" th:object="${blog}" method="post" novalidate="novalidate">
-
-<!--        <input type="hidden" th:field="*{id}"/>-->
+    <form th:action="@{/blog/save}" th:object="${blog}" method="post" novalidate="novalidate">
         <div>
-            <label>Name</label>
-            <input type="text" th:field="*{name}"/>
+            <label>Tiêu đề:</label>
+            <input type="text" th:field="*{tieuDe}"/>
         </div>
         <div>
-            <label>Price</label>
-            <input type="email" th:field="*{price}"/>
+            <label>Tac gia</label>
+            <input type="email" th:field="*{tacGia}"/>
         </div>
         <div>
-            <label>Description</label>
-            <input type="text" th:field="*{description}"/>
+            <label>Tóm tắt</label>
+            <input type="text" th:field="*{tomTat}"/>
         </div>
         <div>
-            <label>Producer</label>
-            <input type="text" th:field="*{producer}"/>
+            <label>Nội Dung</label>
+            <input type="text" th:field="*{noiDung}"/>
         </div>
         <input type="submit" value="Edit"/>
     </form>
